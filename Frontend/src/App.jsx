@@ -10,6 +10,7 @@ function App() {
 
   return (
     <>
+    {/* hello */}
 
       <NavBar/>
       <HomePage/>
