@@ -1,6 +1,6 @@
 import React from 'react'
-import principal_mam_photo from '../assets/principal_mam.png'
-import Library_office_photo from '../assets/library_office_photo.png'
+import principal_mam_photo from './assets/principal_mam.png'
+import Library_office_photo from './assets/library_office_photo.png'
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
