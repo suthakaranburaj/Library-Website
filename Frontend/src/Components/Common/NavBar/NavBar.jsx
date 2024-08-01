@@ -1,5 +1,6 @@
 import React from 'react'
 import Sies_logo from './assets/sies_logo.png'
+import { Link } from 'react-router-dom'
 function NavBar() {
   return (
     <div className='flex items-center justify-between bg-Navbg '>
@@ -8,30 +9,51 @@ function NavBar() {
         </div>
         <div className='w-9/12'>
             <ul className='flex  font-serif '>
-                <li className='hover:bg-gray-200 p-6 text-[#014da1] cursor-pointer
-                 font-medium text-2xl rounded-xl active:text-blue-300'>
+              <Link to=''>
+                  <li className='hover:bg-gray-200 p-6 text-[#014da1] cursor-pointer
+                      font-medium text-2xl rounded-xl active:text-blue-300'>
                   Home</li>
-                <li className='hover:bg-gray-200 p-6 text-[#014da1] cursor-pointer
+              </Link>
+              <Link to='/about'>
+              <li className='hover:bg-gray-200 p-6 text-[#014da1] cursor-pointer
                  font-medium text-2xl rounded-xl active:text-blue-300'>
                   About Us</li>
-                <li className='hover:bg-gray-200 p-6 text-[#014da1] cursor-pointer
-                 font-medium text-xl rounded-xl active:text-blue-300'>
-                  E-Resources</li>
-                <li className='hover:bg-gray-200 p-6 text-[#014da1] cursor-pointer
-                 font-medium text-2xl rounded-xl active:text-blue-300'>
-                  Services</li>
+              </Link>  
+                
+              <Link to='/eresources'>
                 <li className='hover:bg-gray-200 p-6 text-[#014da1] cursor-pointer
                  font-medium text-2xl rounded-xl active:text-blue-300'>
-                  Journels</li>
+                  E-Resources
+                  </li>
+              </Link>
+
+              <Link to='/services'>
+                  <li className='hover:bg-gray-200 p-6 text-[#014da1] cursor-pointer
+                 font-medium text-2xl rounded-xl active:text-blue-300'>
+                  Services
+                  </li>
+              </Link>
+              <Link to='journals'>
+                  <li className='hover:bg-gray-200 p-6 text-[#014da1] cursor-pointer
+                 font-medium text-2xl rounded-xl active:text-blue-300'>
+                  Journals</li>
+              </Link>  
+              <Link to='/faqs'>
                 <li className='hover:bg-gray-200 p-6 text-[#014da1] cursor-pointer
                  font-medium text-2xl rounded-xl active:text-blue-300'>
                   FAQs</li>
+              </Link>
+                
                 <li className='hover:bg-gray-200 p-6 text-[#014da1] cursor-pointer
                  font-medium text-2xl rounded-xl active:text-blue-300'>
                   Dspace IR</li>
-                <li className='hover:bg-gray-200 p-6 text-[#014da1] cursor-pointer
+
+              <Link to='/contactus'>
+                  <li className='hover:bg-gray-200 p-6 text-[#014da1] cursor-pointer
                  font-medium text-2xl rounded-xl active:text-blue-300'>
                   Contact us</li>
+              </Link>
+                
             </ul>
         </div>
         

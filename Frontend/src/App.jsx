@@ -12,9 +12,7 @@ function App() {
     <>
     {/* hello */}
 
-      <NavBar/>
-      <HomePage/>
-      <Footer/>
+      
     </>
   )
 }

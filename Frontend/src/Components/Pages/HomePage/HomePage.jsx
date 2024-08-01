@@ -4,21 +4,70 @@ import Library_office_photo from './assets/library_office_photo.png'
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from 'react-router-dom';
 library.add(fas);
 
-function HomePage() {
+export default function HomePage() {
   return (
     //image section
     <div className=''>
       <div className='flex justify-center items-center my-10'>
         <div>
-        <FontAwesomeIcon className='text-orange-500 size-20 rounded-full  hover:bg-orange-100 active:text-orange-300' icon="fa-solid fa-chevron-left" />
+        <FontAwesomeIcon className='text-orange-500 size-16 rounded-full  hover:bg-orange-100 active:text-orange-300' icon="fa-solid fa-chevron-left" />
         </div>
-        <img className='px-10'
+        <img className='w-8/12'
         src={Library_office_photo} alt="" />
         <div className=''>
-             <FontAwesomeIcon className='text-orange-500 size-20 rounded-full  hover:bg-orange-100 active:text-orange-300' icon="fa-solid fa-chevron-right" />
+             <FontAwesomeIcon className='text-orange-500 size-16 rounded-full  hover:bg-orange-100 active:text-orange-300' icon="fa-solid fa-chevron-right" />
         </div>
+        <div className='texts-center w-3/6 text-4xl'>
+            {/* <p className='text-7xl text-[#014da1] font-serif mb-20 text-center'>Useful Links</p> */}
+            <div className='grid grid-cols-1 gap-4 w-5/6 my-10 text-3xl font-serif'>
+
+                <div className='flex justify-around items-center bg-yellow-200  rounded-2xl cursor-pointer h-16 text-center px-2'>
+
+                    <p className=''>Library Books</p>
+                    <FontAwesomeIcon className='size-8 text-red-500 active:text-red-300  ' icon="fa-solid fa-magnifying-glass" />
+
+                </div>
+                
+                <div className='flex justify-around items-center bg-yellow-200  rounded-2xl cursor-pointer h-16 text-center '>
+
+                    <p className=''>Question Bank</p>
+                    {/* <FontAwesomeIcon className='size-8 text-red-500 active:text-red-300 ' icon="fa-solid fa-file" /> */}
+
+                </div>
+
+                <div className='flex justify-around items-center bg-yellow-200  rounded-2xl cursor-pointer h-16 text-center '>
+
+                    <p className=''>Library Brochure</p>
+                    <FontAwesomeIcon className='size-8 text-red-500 active:text-red-300 ' icon="fa-solid fa-file" />
+
+                </div>
+                <div className='flex justify-around items-center bg-yellow-200  rounded-2xl cursor-pointer h-16 text-center '>
+
+                    <p className=''>University Syllabus</p>
+                    {/* <FontAwesomeIcon className='size-8 text-red-500 active:text-red-300 ' icon="fa-solid fa-file" /> */}
+
+                </div>
+                <div className='flex justify-around items-center bg-yellow-200  rounded-2xl cursor-pointer h-16 text-center '>
+
+                    <p className=''>Scholarships</p>
+                    <FontAwesomeIcon className='size-8 text-red-500 active:text-red-300 ' icon="fa-solid fa-magnifying-glass" />
+
+                </div>
+                <div className='flex justify-around items-center bg-yellow-200  rounded-2xl cursor-pointer h-16 text-center '>
+
+                    <p className=''>Research Funds</p> 
+                    <FontAwesomeIcon className='size-8 text-red-500 active:text-red-300 ' icon="fa-solid fa-magnifying-glass" />
+
+                </div>
+            </div>
+
+            </div>
+
+
+            
       </div>
 
       {/*Principl section*/}
@@ -41,8 +90,8 @@ function HomePage() {
         </div>
       </div>
       {/*news letter useful links */}
-      <div className='ml-28 mt-28 mb-10 flex'>
-            <div className='w-5/12'>
+      <div className='ml-20 mt-20 mb-10 flex'>
+            <div className='w-6/12'>
                 <p className='text-7xl text-[#014da1] font-serif mb-20'>News & Update</p>
                 <p className='text-2xl'>Students Belonging to SC/ST/OBC category may  contact the library for Book bank books facility</p>
                 <br />
@@ -61,22 +110,32 @@ function HomePage() {
                         <li>All new Books of 2024</li>
                     </ul>
                 </div>
-            </div>
 
-            <div className='texts-center w-3/6 ml-10 text-4xl'>
-            <p className='text-7xl text-[#014da1] font-serif mb-20 text-center'>Useful Links</p>
-            <div className='grid grid-cols-1 gap-4 w-5/6 m-10'>
-                <p className='text-center bg-yellow-200 pt-2 rounded-2xl cursor-pointer h-16'>Scholarships</p>
-                <p className='text-center bg-yellow-200 pt-2 rounded-2xl cursor-pointer h-16'>Research Funds</p>
-                <p className='text-center bg-yellow-200 pt-2 rounded-2xl cursor-pointer h-16'>Library Brochure</p>
-                <p className='text-center bg-yellow-200 pt-2 rounded-2xl cursor-pointer  h-16'>University Syllabus</p>
 
             </div>
 
+            <div className='w-6/12 text-center ml-3 text-2xl'>
+                <p className='text-7xl text-[#014da1] font-serif mb-20 px-10'>Useful Links</p>
+                <div className='flex'>
+                    <div className='grid grid-cols-1 gap-2 underline text-start'>
+                        <p className='text-blue-600 active:text-blue-400 cursor-pointer'>E-Books Subscription</p>
+                        <p className='text-blue-600 active:text-blue-400 cursor-pointer'>E-Journals</p>
+                        <p className='text-blue-600 active:text-blue-400 cursor-pointer'>E-Newspapers</p>
+                        <p className='text-blue-600 active:text-blue-400 cursor-pointer'>Swayam</p>
+                        <p className='text-blue-600 active:text-blue-400 cursor-pointer'>ePathshala</p>
+                        <p className='text-blue-600 active:text-blue-400 cursor-pointer'>NPTEL</p>
+                        <p className='text-blue-600 active:text-blue-400 cursor-pointer'>eGyanKosh</p>
+                        <p className='text-blue-600 active:text-blue-400 cursor-pointer'>National Academic Repository</p>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
             </div>
+
         </div>
+       
     </div>
   )
 }
 
-export default HomePage
