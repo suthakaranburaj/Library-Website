@@ -5,7 +5,7 @@ export default function ContactUs() {
     <div>
         <Link to='/contact'>
         
-        <h1 className=''>ContactUs</h1>
+        <h1 className=''>Maharajan</h1>
         </Link>
       
     </div>
