@@ -5,7 +5,7 @@ export default function Journals() {
     <div>
         <Link to='/journals'>
         
-        <h1 className=''>Journals</h1>
+        <h1 className=''>Maharajan</h1>
         </Link>
       
     </div>
