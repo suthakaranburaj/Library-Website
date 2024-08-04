@@ -27,7 +27,7 @@ export default function ContactUs() {
                         <div>
                             <h2 class="text-xl font-semibold mb-2">Operating Hours</h2>
                             <p>Monday-Friday 9:00 am to 5:00 pm</p>
-                            <p>Saturday-Sunday: Opened</p>
+                            <p>Saturday-Sunday: Closed</p>
                         </div>
                     </div>
                     
