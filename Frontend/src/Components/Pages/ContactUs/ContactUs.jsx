@@ -23,6 +23,7 @@ export default function ContactUs() {
                     </div>
                     
                     <div class="mb-6 flex items-start gap-4">
+                    <FontAwesomeIcon className='text-blue-500 text-2xl' icon="fa-solid fa-clock " /> 
                         <i class="fas fa-clock text-blue-500 text-2xl"></i>
                         <div>
                             <h2 class="text-xl font-semibold mb-2">Operating Hours</h2>
@@ -32,6 +33,7 @@ export default function ContactUs() {
                     </div>
                     
                     <div class="mb-6 flex items-start gap-4">
+                    <FontAwesomeIcon className='text-blue-500 text-2xl' icon="fa-solid fa-phone" /> 
                         <i class="fas fa-phone text-blue-500 text-2xl"></i>
                         <div>
                             <h2 class="text-xl font-semibold mb-2">Phone Number</h2>
@@ -40,6 +42,7 @@ export default function ContactUs() {
                     </div>
                     
                     <div class="mb-6 flex items-start gap-4">
+                    <FontAwesomeIcon className='text-blue-500 text-2xl' icon="fa-solid fa-location-dot" /> 
                         <i class="fas fa-envelope text-blue-500 text-2xl"></i>
                         <div>
                             <h2 class="text-xl font-semibold mb-2">Email Address</h2>
