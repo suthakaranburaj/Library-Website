@@ -4,9 +4,24 @@ export default function Services() {
   return (
     <div>
         <Link to='/services'>
-        
-        <h1 className=''>Sar Anburaj</h1>
         </Link>
+        <div className='Flex'>
+          <h1></h1>
+          <div>
+              <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+          </div>
+          <div>
+
+          </div>
+        </div>
       
     </div>
   )
