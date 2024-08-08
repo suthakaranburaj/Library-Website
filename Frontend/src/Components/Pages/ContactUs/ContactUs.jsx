@@ -9,7 +9,7 @@ export default function ContactUs() {
         <section class="min-h-screen flex flex-col justify-center font-serif">
         <div class="flex flex-col h-full">
             <header class="text-center mb-4">
-            <h1 class="text-4xl font-bold mb-8 border-b-4 border-orange-500 pb-4 text-gray-900">Contact Us</h1>
+            <h1 class="text-4xl font-bold mb-9 border-b-4 border-orange-500 pb-4 h-14 ">Contact Us</h1>
 
             </header>
             <div class="flex flex-grow w-full">

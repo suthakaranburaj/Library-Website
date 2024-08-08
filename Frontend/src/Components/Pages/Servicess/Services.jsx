@@ -4,10 +4,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import services from './assets/services-images.png'
 export default function Services() {
   return (
-    <div>
+    <div className='font-serif'>
         <Link to='/services'>
         </Link>
-        <p className='text-4xl font-bold mb-8 border-b-4 border-orange-500 pb-4 text-gray-900 text-center'>Library Services</p>
+        <p className='text-4xl font-bold my-10 border-b-4  border-orange-500 pb-4 h-14  text-center'>Library Services</p>
         <div className="Flex m-8 font-serif" >
         <h1 className='text-4xl'>Library provides the following Services:</h1>
           <div className='flex m-8 justify-between '>
