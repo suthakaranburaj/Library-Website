@@ -13,6 +13,7 @@ export default function AboutUs() {
                         <h1 className="text-4xl mt-10  font-bold mb-8 border-b-4 border-orange-400 pb-2  h-14">About Us</h1>
                     </header>
                     </div>
+
                     {/* Left Side */}
                     <div className="flex flex-grow w-full">
                         <div className="flex-1 p-8 bg-white border-r border-red-200"> 
@@ -30,7 +31,7 @@ export default function AboutUs() {
                             </div>
                         </div>
                         
-                        {/* <!-- Contact Form --> */}
+                        {/* <!-- Library timings (regular) --> */}
                         <div className="flex-1 p-8 bg-white">
                             <div className="mb-6 flex items-start gap-2">
                                 <div>
