@@ -5,8 +5,8 @@ export default function FAQs() {
     <div className='font-serif'>  
         <Link to='/faqs'>
         </Link>
-        <header className="text-center mb-4">
-                <h1 className="text-3xl font-bold mb-4 border-b-4 border-orange-400 pb-2 text-gray-900">FAQs</h1>
+        <header className="text-center mb-4 h-24">
+                <h1 className="text-4xl mt-10  font-bold mb-8 border-b-4 border-orange-400 pb-2  h-14">FAQs</h1>
             </header>
         <div className='flex mx-10'>
           

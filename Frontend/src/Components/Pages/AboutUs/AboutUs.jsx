@@ -7,11 +7,12 @@ export default function AboutUs() {
         <div className='font-serif '>
             <Link to='/about'></Link>
             <section className="min-h-screen flex justify-center font-serif">
-                <div className="flex flex-col h-full">
-                    <header className="text-center mb-4">
-                        <h1 className="text-4xl font-bold mb-8 border-b-4 border-orange-500 py-4 text-gray-900">About Library</h1>
+                <div className="">
+                    <div className=''>
+                    <header className="text-center mb-4 h-24">
+                        <h1 className="text-4xl mt-10  font-bold mb-8 border-b-4 border-orange-400 pb-2  h-14">About Us</h1>
                     </header>
-
+                    </div>
                     {/* Left Side */}
                     <div className="flex flex-grow w-full">
                         <div className="flex-1 p-8 bg-white border-r border-red-200"> 

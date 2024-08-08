@@ -4,11 +4,11 @@ export default function Journals() {
   return (
     <div>
         <Link to='/journals'></Link>
-        <section class="min-h-screen flex flex-col justify-center font-serif px-8 lg:px-32">
+        <section class="min-h-screen flex flex-col justify-center font-serif  ">
     <div class="flex flex-col h-full">
-        <header class="text-center mb-8">
-            <h1 class="text-4xl font-bold mb-6 border-b-4 border-orange-500 pb-4 text-gray-900">Journals</h1>
-        </header>
+            <header className="text-center mb-4 h-24">
+                <h1 className="text-4xl mt-10  font-bold mb-8 border-b-4 border-orange-400 pb-2  h-14">Journals</h1>
+            </header>
         
         <div class="space-y-12">
         
