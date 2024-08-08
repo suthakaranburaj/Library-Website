@@ -32,7 +32,18 @@ export default function AboutUs() {
                         
                         {/* <!-- Contact Form --> */}
                         <div className="flex-1 p-8 bg-white">
-                            <h2 className="text-xl font-semibold mb-4">Get in Touch</h2>
+                            <div className="mb-6 flex items-start gap-2">
+                                <div>
+                                    <h2 className="text-xl font-semibold mb-2">Library timings (regular)</h2>
+                                    <p>
+                                        Monday to Saturday: 08 am to 07 pm (11 hrs)<br/>
+                                        During Vacation:  09 am to 5 pm (8 hrs)<br />
+                                        The library will remain closed on Sundays &  Public holidays<br />
+                                        Regarding extension of timings, if any, after 7 pm, contact at circulation counter or mail:
+                                        <a>librariangst@sies.edu.in</a> 
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
