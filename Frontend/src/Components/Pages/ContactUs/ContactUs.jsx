@@ -4,7 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 export default function ContactUs() {
   return (
     <div>
-        <Link to='/contact'></Link>
+        <Link to='/contact'>
+        </Link>
         <section class="min-h-screen flex flex-col justify-center font-serif">
         <div class="flex flex-col h-full">
             <header class="text-center mb-4">
