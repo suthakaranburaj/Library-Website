@@ -4,19 +4,19 @@ export default function Journals() {
   return (
     <div>
         <Link to='/journals'></Link>
-        <section class="min-h-screen flex flex-col justify-center font-serif  ">
-    <div class="flex flex-col h-full">
+        <section classname="min-h-screen flex flex-col justify-center font-serif  ">
+    <div classname="flex flex-col h-full">
             <header className="text-center mb-4 h-24">
                 <h1 className="text-4xl mt-10  font-bold mb-8 border-b-4 border-orange-400 pb-2  h-14">Journals</h1>
             </header>
         
-        <div class="space-y-12">
+        <div classname="space-y-12">
         
             <div>
-                <h2 class="text-3xl font-semibold text-gray-800 mb-4">1. Computer Engineering and IT</h2>
-                <p class="text-lg text-gray-700 leading-relaxed"></p>
+                <h2 classname="text-3xl font-semibold text-gray-800 mb-4">1. Computer Engineering and IT</h2>
+                <p classname="text-lg text-gray-700 leading-relaxed"></p>
                 <p>Intl. journal of embedded systems & computer engineering</p>
-                <div class="container mx-auto p-5 bg-gray-100 rounded-lg shadow-lg max-w-md ml-4">
+                <div classname="container mx-auto p-5 bg-gray-100 rounded-lg shadow-lg max-w-md ml-4">
 <p>1)Journal of advanced database management & systems</p>
 
 <p>2)Journal of advance research in computer engineering</p>
@@ -48,11 +48,11 @@ export default function Journals() {
             
          
             <div>
-                <h2 class="text-3xl font-semibold text-gray-800 mb-4">2. EXTC Engineering</h2>
-                <p class="text-lg text-gray-700 leading-relaxed">
+                <h2 classname="text-3xl font-semibold text-gray-800 mb-4">2. EXTC Engineering</h2>
+                <p classname="text-lg text-gray-700 leading-relaxed">
                     
 Electronics & Telecommunication Engineering 
-<div class="container mx-auto p-5 bg-gray-100 rounded-lg shadow-lg max-w-md ml-4">
+<div classname="container mx-auto p-5 bg-gray-100 rounded-lg shadow-lg max-w-md ml-4">
 <p>(1) Journal of communication engineering and systems</p>
 <p>(2) IETE journal of research*</p>
 <p>(3) IETE technical review</p>
@@ -72,11 +72,11 @@ Electronics & Telecommunication Engineering
             </div>
             
             <div>
-                <h2 class="text-3xl font-semibold text-gray-800 mb-4">3. Mechanical Engineering</h2>
-                <p class="text-lg text-gray-700 leading-relaxed">
+                <h2 classname="text-3xl font-semibold text-gray-800 mb-4">3. Mechanical Engineering</h2>
+                <p classname="text-lg text-gray-700 leading-relaxed">
                  
 Mechanical Engineering
-<div class="container mx-auto p-3 bg-gray-100 rounded-lg shadow-lg max-w-md ml-4">
+<div classname="container mx-auto p-3 bg-gray-100 rounded-lg shadow-lg max-w-md ml-4">
 <p>(1) Intl. journal of material science*</p>
 <p>(2) Journal of vibration engineering and technology</p>
 <p>(3) Indian journal of heat and mass transfer</p>
