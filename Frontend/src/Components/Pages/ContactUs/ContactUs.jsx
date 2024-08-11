@@ -15,7 +15,7 @@ export default function ContactUs() {
             <div className="flex flex-grow w-full">
                 <div className="flex-1 p-8 bg-white border-r border-gray-200">
                     {/* <!-- Contact Information --> */}
-                    <div className="mb-6 flex items-start gap-5">
+                    <div className="mb-6 flex items-start gap-6">
                     <FontAwesomeIcon className='text-orange-500 text-2xl' icon="fa-solid fa-location-dot" /> 
                         <div>
                             <h2 className="text-xl font-semibold mb-2">Our Address</h2>
