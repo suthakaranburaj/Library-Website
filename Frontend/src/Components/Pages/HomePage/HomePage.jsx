@@ -11,7 +11,8 @@ export default function HomePage() {
   return (
     //image section
     <div className=''>
-      <div className='flex justify-center items-center my-10'>
+        <Link to='/'></Link>
+      <div className='flex justify-center items-center mb-10 mt-28'>
         <div>
         <FontAwesomeIcon className='text-orange-500 size-16 rounded-full  hover:bg-orange-100 active:text-orange-300' icon="fa-solid fa-chevron-left" />
         </div>
