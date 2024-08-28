@@ -12,55 +12,57 @@ export default function HomePage() {
     //image section
     <div className=''>
         <Link to='/'></Link>
-      <div className='flex justify-center items-center mb-10 mt-28'>
+        
+    <div className='flex items-center justify-center mb-10 mt-28'>
+        
         <div>
-        <FontAwesomeIcon className='text-orange-500 size-16 rounded-full  hover:bg-orange-100 active:text-orange-300' icon="fa-solid fa-chevron-left" />
+        <FontAwesomeIcon className='text-orange-500 rounded-full size-16 hover:bg-orange-100 active:text-orange-300' icon="fa-solid fa-chevron-left" />
         </div>
         <img className='w-8/12'
         src={Library_office_photo} alt="" />
         <div className=''>
-             <FontAwesomeIcon className='text-orange-500 size-16 rounded-full  hover:bg-orange-100 active:text-orange-300' icon="fa-solid fa-chevron-right" />
+             <FontAwesomeIcon className='text-orange-500 rounded-full size-16 hover:bg-orange-100 active:text-orange-300' icon="fa-solid fa-chevron-right" />
         </div>
-        <div className='texts-center w-3/6 text-4xl'>
+        <div className='w-3/6 text-4xl texts-center'>
             {/* <p className='text-7xl text-[#014da1] font-serif mb-20 text-center'>Useful Links</p> */}
-            <div className='grid grid-cols-1 gap-4 w-5/6 my-10 text-3xl font-serif'>
+            <div className='grid w-5/6 grid-cols-1 gap-4 my-10 font-serif text-3xl'>
 
-                <div className='flex justify-around items-center bg-yellow-200  rounded-2xl cursor-pointer h-16 text-center px-2'>
+                <div className='flex items-center justify-around h-16 px-2 text-center bg-yellow-200 cursor-pointer rounded-2xl'>
 
                     <p className=''>Library Books</p>
-                    <FontAwesomeIcon className='size-8 text-red-500 active:text-red-300  ' icon="fa-solid fa-magnifying-glass" />
+                    <FontAwesomeIcon className='text-red-500 size-8 active:text-red-300 ' icon="fa-solid fa-magnifying-glass" />
 
                 </div>
                 
-                <div className='flex justify-around items-center bg-yellow-200  rounded-2xl cursor-pointer h-16 text-center '>
+                <div className='flex items-center justify-around h-16 text-center bg-yellow-200 cursor-pointer rounded-2xl '>
 
                     <p className=''>Question Bank</p>
-                    {/* <FontAwesomeIcon className='size-8 text-red-500 active:text-red-300 ' icon="fa-solid fa-file" /> */}
+                    {/* <FontAwesomeIcon className='text-red-500 size-8 active:text-red-300 ' icon="fa-solid fa-file" /> */}
 
                 </div>
 
-                <div className='flex justify-around items-center bg-yellow-200  rounded-2xl cursor-pointer h-16 text-center '>
+                <div className='flex items-center justify-around h-16 text-center bg-yellow-200 cursor-pointer rounded-2xl '>
 
                     <p className=''>Library Brochure</p>
-                    <FontAwesomeIcon className='size-8 text-red-500 active:text-red-300 ' icon="fa-solid fa-file" />
+                    <FontAwesomeIcon className='text-red-500 size-8 active:text-red-300 ' icon="fa-solid fa-file" />
 
                 </div>
-                <div className='flex justify-around items-center bg-yellow-200  rounded-2xl cursor-pointer h-16 text-center '>
+                <div className='flex items-center justify-around h-16 text-center bg-yellow-200 cursor-pointer rounded-2xl '>
 
                     <p className=''>University Syllabus</p>
-                    {/* <FontAwesomeIcon className='size-8 text-red-500 active:text-red-300 ' icon="fa-solid fa-file" /> */}
+                    {/* <FontAwesomeIcon className='text-red-500 size-8 active:text-red-300 ' icon="fa-solid fa-file" /> */}
 
                 </div>
-                <div className='flex justify-around items-center bg-yellow-200  rounded-2xl cursor-pointer h-16 text-center '>
+                <div className='flex items-center justify-around h-16 text-center bg-yellow-200 cursor-pointer rounded-2xl '>
 
                     <p className=''>Scholarships</p>
-                    <FontAwesomeIcon className='size-8 text-red-500 active:text-red-300 ' icon="fa-solid fa-magnifying-glass" />
+                    <FontAwesomeIcon className='text-red-500 size-8 active:text-red-300 ' icon="fa-solid fa-magnifying-glass" />
 
                 </div>
-                <div className='flex justify-around items-center bg-yellow-200  rounded-2xl cursor-pointer h-16 text-center '>
+                <div className='flex items-center justify-around h-16 text-center bg-yellow-200 cursor-pointer rounded-2xl '>
 
                     <p className=''>Research Funds</p> 
-                    <FontAwesomeIcon className='size-8 text-red-500 active:text-red-300 ' icon="fa-solid fa-magnifying-glass" />
+                    <FontAwesomeIcon className='text-red-500 size-8 active:text-red-300 ' icon="fa-solid fa-magnifying-glass" />
 
                 </div>
             </div>
@@ -72,15 +74,15 @@ export default function HomePage() {
       </div>
 
       {/*Principl section*/}
-      <div className='h-6/6 mb-10'>
+      <div className='mb-10 h-6/6'>
         <div className='flex justify-center h-1/2 '>
             <p className='text-7xl w-9/12 text-center h-44 flex mb-10 items-center justify-center py-10 text-[#014da1] font-serif'>Principal's Message</p>
         </div>
         <div className='flex'>
-            <div className='h-4/6 w-5/12 '>
-                <img className='ml-28 bg-black rounded-3xl ' src={principal_mam_photo} alt="" />
+            <div className='w-5/12 h-4/6 '>
+                <img className='bg-black ml-28 rounded-3xl ' src={principal_mam_photo} alt="" />
             </div>
-            <div className='w-7/12 text-2xl items-center flex-col pr-10 pt-10'>
+            <div className='flex-col items-center w-7/12 pt-10 pr-10 text-2xl'>
                 <p>Dear Library Users,Welcome to the GST Central Library
                 This website is designed to acquaint you with the GST library information, services, activities and links to other internet sites to assist you in your academic and research needs
                 Please feel free to contribute your input about library services and this website.  We value your comments and believe that your feedback will directly impact the library’s level of success.
@@ -91,7 +93,7 @@ export default function HomePage() {
         </div>
       </div>
       {/*news letter useful links */}
-      <div className='ml-20 mt-20 mb-10 flex'>
+      <div className='flex mt-20 mb-10 ml-20'>
             <div className='w-6/12'>
                 <p className='text-7xl text-[#014da1] font-serif mb-20'>News & Update</p>
                 <p className='text-2xl'>Students Belonging to SC/ST/OBC category may  contact the library for Book bank books facility</p>
@@ -101,10 +103,10 @@ export default function HomePage() {
                 {/*new arrivals 
                 We can add this feature in our admin panel , like sir can update the newly arrived books*/}
 
-                <div className='mt-10 flex-col text-2xl'>
-                    <p className='text-red-500 font-bold text-4xl mb-5 bg-yellow-200 text-center h-16 flex items-center justify-center rounded-xl w-5/6'>
+                <div className='flex-col mt-10 text-2xl'>
+                    <p className='flex items-center justify-center w-5/6 h-16 mb-5 text-4xl font-bold text-center text-red-500 bg-yellow-200 rounded-xl'>
                         New Books Available!!!</p>
-                    <ul className='list-disc ml-5'>
+                    <ul className='ml-5 list-disc'>
                         <li>Book 1</li>
                         <li>Book 2</li>
                         <li>Book 3</li>
@@ -115,18 +117,18 @@ export default function HomePage() {
 
             </div>
 
-            <div className='w-6/12 text-center ml-3 text-2xl'>
+            <div className='w-6/12 ml-3 text-2xl text-center'>
                 <p className='text-7xl text-[#014da1] font-serif mb-20 px-10'>Useful Links</p>
                 <div className='flex'>
                     <div className='grid grid-cols-1 gap-2 underline text-start'>
-                        <p className='text-blue-600 active:text-blue-400 cursor-pointer'>E-Books Subscription</p>
-                        <p className='text-blue-600 active:text-blue-400 cursor-pointer'>E-Journals</p>
-                        <p className='text-blue-600 active:text-blue-400 cursor-pointer'>E-Newspapers</p>
-                        <p className='text-blue-600 active:text-blue-400 cursor-pointer'>Swayam</p>
-                        <p className='text-blue-600 active:text-blue-400 cursor-pointer'>ePathshala</p>
-                        <p className='text-blue-600 active:text-blue-400 cursor-pointer'>NPTEL</p>
-                        <p className='text-blue-600 active:text-blue-400 cursor-pointer'>eGyanKosh</p>
-                        <p className='text-blue-600 active:text-blue-400 cursor-pointer'>National Academic Repository</p>
+                        <p className='text-blue-600 cursor-pointer active:text-blue-400'>E-Books Subscription</p>
+                        <p className='text-blue-600 cursor-pointer active:text-blue-400'>E-Journals</p>
+                        <p className='text-blue-600 cursor-pointer active:text-blue-400'>E-Newspapers</p>
+                        <p className='text-blue-600 cursor-pointer active:text-blue-400'>Swayam</p>
+                        <p className='text-blue-600 cursor-pointer active:text-blue-400'>ePathshala</p>
+                        <p className='text-blue-600 cursor-pointer active:text-blue-400'>NPTEL</p>
+                        <p className='text-blue-600 cursor-pointer active:text-blue-400'>eGyanKosh</p>
+                        <p className='text-blue-600 cursor-pointer active:text-blue-400'>National Academic Repository</p>
                     </div>
                     <div>
 
